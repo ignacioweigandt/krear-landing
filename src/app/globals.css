@@ -1,26 +1,51 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #CCFF00;
+  --color-background-dark: #0A0A0A;
+  --color-tech-white: #F0F2F5;
+  --color-obsidian: #121212;
+  --font-display: var(--font-inter), sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  body {
+    background-color: var(--color-background-dark);
+    color: var(--color-tech-white);
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-obsidian);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .canvas-gradient {
+    background: radial-gradient(circle at 50% 50%, rgba(204, 255, 0, 0.03) 0%, transparent 70%);
+  }
+
+  .grid-overlay {
+    background-image: linear-gradient(rgba(204, 255, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(204, 255, 0, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .blur-accent {
+    filter: blur(120px);
+    background: #CCFF00;
+    opacity: 0.05;
+  }
+
+  .section-overlap {
+    margin-top: -10vh;
+    position: relative;
+    z-index: 10;
+  }
+
+  .glass-panel {
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(24px);
+  }
 }
