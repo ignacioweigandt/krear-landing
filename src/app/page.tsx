@@ -16,7 +16,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-5 lg:px-12">
           <div className="flex items-center gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="KREAR Logo" className="h-7 w-auto" src="/isotipo-negativo.png"/>
+            <img alt="KREAR Logo" className="h-7 w-auto" src="/Isotipo-sinfondo.png"/>
             <h2 className="text-xl font-bold tracking-[0.4em] text-tech-white uppercase leading-none">KREAR</h2>
           </div>
           <div className="hidden md:flex items-center gap-12">
@@ -284,7 +284,7 @@ export default function Home() {
             <div className="col-span-1 md:col-span-2 space-y-8 md:space-y-10">
               <div className="flex items-center gap-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="KREAR Logo" className="h-6 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgWH9u6PmiQARXpSs4AL4UA_oCtyuKNiu0-AyfCwFcIKR8MOKPh6edVgK4-Xq2JMNXtYDY9wT3d3LIxzuCOTh3bzMXY6lckxDbFB8o0FU5CVxV1TQo2z_CBTeL-xO_t8fjc-42cMICCvsE3VnzHeZMiEyoW3CL1WpTWXu6svV1xg8wwa6kw4J44neMMNmal5dV7y15D-rTT69dgzb_MTRF0R8MyXd_DSfMkJed010G41yR4LT7Gv6lnB7qMDOVq9KJwCg7uH89AzCf"/>
+                <img alt="KREAR Logo" className="h-6 w-auto" src="/Isotipo-sinfondo.png"/>
                 <h2 className="text-xl font-bold tracking-[0.5em] text-tech-white uppercase">KREAR</h2>
               </div>
               <p className="max-w-md text-base md:text-lg leading-relaxed text-tech-white/40 font-light">

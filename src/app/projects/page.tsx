@@ -67,7 +67,7 @@ export default function ProjectsPage() {
         <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-5 lg:px-12">
           <a href="/" className="flex items-center gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="KREAR Logo" className="h-7 w-auto" src="/isotipo-negativo.png"/>
+            <img alt="KREAR Logo" className="h-7 w-auto" src="/Isotipo-sinfondo.png"/>
             <h2 className="text-xl font-bold tracking-[0.4em] text-tech-white uppercase leading-none">KREAR</h2>
           </a>
           <div className="hidden md:flex items-center gap-12">
@@ -242,7 +242,7 @@ export default function ProjectsPage() {
             <div className="col-span-1 md:col-span-2 space-y-8 md:space-y-10">
               <div className="flex items-center gap-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img alt="KREAR Logo" className="h-6 w-auto" src="/isotipo-negativo.png"/>
+                <img alt="KREAR Logo" className="h-6 w-auto" src="/Isotipo-sinfondo.png"/>
                 <h2 className="text-xl font-bold tracking-[0.5em] text-tech-white uppercase">KREAR</h2>
               </div>
               <p className="max-w-md text-base md:text-lg leading-relaxed text-tech-white/40 font-light">

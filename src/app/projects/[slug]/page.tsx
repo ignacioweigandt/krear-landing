@@ -104,7 +104,7 @@ export default function ProjectPage({
         <div className="mx-auto flex max-w-screen-2xl items-center justify-between px-6 py-5 lg:px-12">
           <a href="/" className="flex items-center gap-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="KREAR Logo" className="h-7 w-auto" src="/isotipo-negativo.png" />
+            <img alt="KREAR Logo" className="h-7 w-auto" src="/Isotipo-sinfondo.png" />
             <h2 className="text-xl font-bold tracking-[0.4em] text-tech-white uppercase leading-none">
               KREAR
             </h2>
@@ -405,7 +405,7 @@ export default function ProjectPage({
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 items-center border-b border-white/5 pb-12 md:pb-16">
             <a href="/" className="flex items-center gap-4 text-white">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="KREAR Logo" className="h-6 w-auto" src="/isotipo-negativo.png" />
+              <img alt="KREAR Logo" className="h-6 w-auto" src="/Isotipo-sinfondo.png" />
               <span className="font-black text-2xl tracking-tighter">KREAR</span>
             </a>
             <div className="flex justify-start md:justify-center gap-8 md:gap-12">
