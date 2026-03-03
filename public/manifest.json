@@ -1,0 +1,23 @@
+{
+  "name": "KREAR - Digital Architecture Studio",
+  "short_name": "KREAR",
+  "description": "Tech Studio dedicado a la arquitectura lógica y diseño de ecosistemas digitales de alto nivel",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#C4FF0D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
