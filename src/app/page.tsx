@@ -54,11 +54,11 @@ export default function Home() {
       </nav>
       <main className="relative w-full overflow-hidden">
         <section className="relative min-h-screen flex flex-col justify-center px-6 lg:px-12 w-full pt-20">
-          <div className="absolute right-0 top-[10%] w-full md:w-1/2 h-full md:h-[80%] opacity-10 md:opacity-20 pointer-events-none">
+          <div className="absolute right-0 top-[10%] w-full md:w-1/2 h-full md:h-[80%] opacity-10 md:opacity-20 pointer-events-none -z-10">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Architecture visualization" className="w-full h-full object-cover md:rounded-l-3xl border-l border-y border-white/20" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh5Nx-ZIVgsEa1QpypBX_c7Ck8FP6B4xoOL9tyNwuwgtpCtKG5djlAAsD_GDepovKO5zvpj9oHs5d65TINm5AjX8ouXcUhryNuHh6PRKr0IPA9DurWQxGFV0OmRUNuLoOVPenSM8ZGBhJ1TSKs3zaC7Oj1oNhyp4KJEXHdMvg39PhhC6Fmj5L741HxEEGDFnBBdfp3W__a2Trn7SVpxGyYEXwwKx_pYn_Ev0lzbne0hOwjWO2vXuLAZSwFhLvSDbCQJx6BvLwD5poo"/>
+            <img alt="Architecture visualization" className="w-full h-full object-cover md:rounded-l-3xl border-l border-y border-white/20 pointer-events-none" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh5Nx-ZIVgsEa1QpypBX_c7Ck8FP6B4xoOL9tyNwuwgtpCtKG5djlAAsD_GDepovKO5zvpj9oHs5d65TINm5AjX8ouXcUhryNuHh6PRKr0IPA9DurWQxGFV0OmRUNuLoOVPenSM8ZGBhJ1TSKs3zaC7Oj1oNhyp4KJEXHdMvg39PhhC6Fmj5L741HxEEGDFnBBdfp3W__a2Trn7SVpxGyYEXwwKx_pYn_Ev0lzbne0hOwjWO2vXuLAZSwFhLvSDbCQJx6BvLwD5poo"/>
           </div>
-          <div className="max-w-6xl relative z-10 mt-12 md:mt-0 w-full">
+          <div className="max-w-6xl relative z-20 mt-12 md:mt-0 w-full">
             <div className="inline-flex items-center gap-2 mb-6 text-primary w-full">
               <span className="h-[1px] w-8 md:w-12 bg-primary flex-shrink-0"></span>
               <span className="text-[10px] md:text-xs font-black uppercase tracking-[0.3em] leading-relaxed break-words whitespace-normal w-full">Studio de Arquitectura Digital</span>
@@ -71,19 +71,19 @@ export default function Home() {
             <p className="max-w-xl w-full text-base text-tech-white/50 md:text-2xl leading-relaxed mb-10 font-light pr-4">
               No hacemos programación. Diseñamos la infraestructura lógica de tu negocio y construimos ecosistemas digitales escalables.
             </p>
-            <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-6">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-6 relative z-20">
               <a
                 href="https://wa.me/5493546407726"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex justify-center items-center gap-4 bg-primary px-8 py-4 sm:py-5 text-sm sm:text-base font-black text-obsidian rounded-full transition-all hover:pr-12 w-full sm:w-auto"
+                className="group flex justify-center items-center gap-4 bg-primary px-8 py-4 sm:py-5 text-sm sm:text-base font-black text-obsidian rounded-full transition-all hover:pr-12 hover:scale-105 active:scale-95 w-full sm:w-auto cursor-pointer"
               >
                 Inicia la Arquitectura
                 <span className="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_right_alt</span>
               </a>
               <a
                 href="#portfolio"
-                className="glass-panel px-8 py-4 sm:py-5 text-sm sm:text-base font-bold text-tech-white rounded-full hover:bg-white/10 transition-colors w-full sm:w-auto text-center"
+                className="glass-panel px-8 py-4 sm:py-5 text-sm sm:text-base font-bold text-tech-white rounded-full hover:bg-white/10 hover:scale-105 active:scale-95 transition-all w-full sm:w-auto text-center cursor-pointer"
               >
                 Ver Proyectos
               </a>
